@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.itcast.entity.Factory" table="factory">
+		<id name="fid" column="fid">
+			<generator class="native"></generator>
+		</id>
+		<property name="fname" column="fname"></property>
+		<property name="fprice" column="fprice"></property>
+		<property name="fvalDate" column="fvalDate"></property>
+		<property name="fproductDate" column="fproductDate"></property>
+		<property name="fnum" column="fnum"></property>
+		<property name="fgongying" column="fgongying"></property>
+		<property name="fchufang" column="fchufang"></property>
+	</class>
+	
+</hibernate-mapping>

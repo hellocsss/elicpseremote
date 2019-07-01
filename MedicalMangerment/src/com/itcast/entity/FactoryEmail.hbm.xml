@@ -1,0 +1,22 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.itcast.entity.FactoryEmail" table="factoryemail">
+		<id name="feid" column="feid">
+			<generator class="native"></generator>
+		</id>
+		<property name="name" column="name"></property>
+		<property name="Date" column="Date"></property>
+		<property name="mark" column="mark"></property>
+		<property name="tname" column="tname"></property>
+		<property name="isread" column="isread"></property>
+		<property name="content" column="content"></property>
+		<property name="percent" column="percent"></property>
+		<property name="sendName" column="sendName"></property>
+		<property name="eid" column="eid"></property>
+		
+	</class>
+	
+</hibernate-mapping>

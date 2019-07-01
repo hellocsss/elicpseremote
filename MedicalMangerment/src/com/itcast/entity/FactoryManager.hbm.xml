@@ -1,0 +1,18 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.itcast.entity.FactoryManager" table="FactoryManager">
+		<id name="Fmid" column="Fmid">
+			<generator class="native"></generator>
+		</id>
+		<property name="Fmname" column="Fmname"></property>
+		<property name="Fmpassword" column="Fmpassword"></property>
+		
+		
+		
+		
+	</class>
+	
+</hibernate-mapping>
